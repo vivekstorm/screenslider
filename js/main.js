@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded',function(){
   let handle=wrapper.querySelector('.handle');
   let skew=0;
   let delta=0;
-  if(wrapper.className.indexOf('skewed'!=-1){
+  if(wrapper.className.indexOf('skewed'!=-1)){
     skew=1000;
   }
   wrapper.addEventListener('mousemove',function(e){
